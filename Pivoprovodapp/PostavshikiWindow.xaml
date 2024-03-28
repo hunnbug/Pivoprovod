@@ -1,0 +1,28 @@
+﻿<Window x:Class="Pivoprovodapp.PostavshikiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pivoprovodapp"
+        mc:Ignorable="d"
+        Title="PostavshikiWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DG" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.RowSpan="3" SelectionChanged="DG_SelectionChanged"/>
+        <Button Grid.Column="1" Content="Добавить" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" Height="27" Width="92" Click="AddButtonClick"/>
+        <Button Grid.Column="2" Content="Изменить" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" Height="27" Width="92" Click="ChangeButtonClick"/>
+        <Button Grid.Column="3" Content="Удалить" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" Height="27" Width="92" Click="DeleteButtonClick"/>
+        <TextBox x:Name="NameBox" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Height="27" Width="268"/>
+        <TextBlock HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Поставщик" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="23" Width="70"/>
+    </Grid>
+</Window>

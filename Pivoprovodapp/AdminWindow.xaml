@@ -1,0 +1,51 @@
+﻿<Window x:Class="Pivoprovodapp.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pivoprovodapp"
+        mc:Ignorable="d"
+        Closing="WindowClosing"
+        Loaded="WindowLoaded"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DG" Grid.Row="2" Grid.ColumnSpan="3" Grid.RowSpan="8" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="DG_SelectionChanged"/>
+        <Button x:Name="ClientsButton" Content="Clients" HorizontalAlignment="Center" VerticalAlignment="Center" Width="135" Height="34" Click="ClientsBtnClick"/>
+        <Button x:Name="ProductsButton" Grid.Column="1" Content="Products" HorizontalAlignment="Center" VerticalAlignment="Center" Width="135" Height="34" Click="ProductsClick"/>
+        <Button x:Name="PostavkiButton" Grid.Column="2" Content="Postavshiki" HorizontalAlignment="Center" VerticalAlignment="Center" Width="135" Height="34" Click="PostavshikiClick"/>
+        <Button x:Name="SkladsButton" Grid.Column="3" Content="Sklads" HorizontalAlignment="Center" VerticalAlignment="Center" Width="135" Height="34" Click="SkladsClick"/>
+        <Button x:Name="LarkiButton" Grid.Column="5" Content="Larki" HorizontalAlignment="Center" VerticalAlignment="Center" Width="135" Height="34" Click="LarkiClick"/>
+        <Button x:Name="AddButton" Grid.Row="8" Grid.Column="3" Content="Добавить" HorizontalAlignment="Center" VerticalAlignment="Center" Width="138" Height="34" Click="AddClick"/>
+        <Button x:Name="ChangeButton" Grid.Row="8" Grid.Column="4" Content="Изменить" HorizontalAlignment="Center" VerticalAlignment="Center" Width="138" Height="34" Click="ChangeClick"/>
+        <Button x:Name="DeleteButton" Grid.Row="8" Grid.Column="5" Content="Удалить" HorizontalAlignment="Center" VerticalAlignment="Center" Width="138" Height="34" Click="DeleteClick"/>
+        <TextBox x:Name="NameBox" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="396" Grid.ColumnSpan="3" Height="25" Margin="0,0,0,48" Grid.RowSpan="2"/>
+        <TextBox x:Name="SurnameBox" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="396" Grid.ColumnSpan="3" Height="25" Margin="0,0,0,48" Grid.RowSpan="2"/>
+        <TextBox x:Name="LoginBox" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="5" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="396" Grid.ColumnSpan="3" Height="25"/>
+        <TextBox x:Name="PasswordBox" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="6" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="396" Grid.ColumnSpan="3" Height="25"/>
+        <ComboBox x:Name="RoleBox" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Bottom" Width="396" Grid.ColumnSpan="3" Height="25"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Height="21"  Width="100"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Height="21" Width="100"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Height="21" Width="100"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="6" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Height="21" Width="100"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="7" TextWrapping="Wrap" Text="Роль" VerticalAlignment="Top" Height="21" Width="100"/>
+    </Grid>
+</Window>

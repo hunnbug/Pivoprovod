@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\clientswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\clientswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\blinovozwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\blinovozwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\blinovozwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\blinovozwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|d:\\coding\\mocha\\c#\\pivoprovodapp\\pivoprovodapp\\ds.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{1797F1A1-BAFB-468B-99A5-7DF0A1DC6BE7}|Pivoprovodapp\\Pivoprovodapp.csproj|solutionrelative:pivoprovodapp\\ds.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DS.xsd",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\DS.xsd",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\DS.xsd",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\DS.xsd",
+              "RelativeToolTip": "Pivoprovodapp\\DS.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-03-28T03:26:05.468Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\AdminWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Pivoprovodapp\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAlwCcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:36:22.201Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlinovozWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\BlinovozWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\BlinovozWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\BlinovozWindow.xaml.cs",
+              "RelativeToolTip": "Pivoprovodapp\\BlinovozWindow.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAnwB4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:54:42.755Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientsWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\ClientsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\ClientsWindow.xaml.cs",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\ClientsWindow.xaml.cs",
+              "RelativeToolTip": "Pivoprovodapp\\ClientsWindow.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:05:03.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\AdminWindow.xaml",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\AdminWindow.xaml",
+              "RelativeToolTip": "Pivoprovodapp\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T06:03:25.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlinovozWindow.xaml",
+              "DocumentMoniker": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\BlinovozWindow.xaml",
+              "RelativeDocumentMoniker": "Pivoprovodapp\\BlinovozWindow.xaml",
+              "ToolTip": "D:\\CODING\\mocha\\c#\\Pivoprovodapp\\Pivoprovodapp\\BlinovozWindow.xaml",
+              "RelativeToolTip": "Pivoprovodapp\\BlinovozWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T06:03:15.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
